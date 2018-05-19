@@ -1,5 +1,7 @@
 package org.example.java_hbase.example1;
 
+/* Updating data in HBase is same with inserting data*/
+
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;

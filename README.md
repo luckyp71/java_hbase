@@ -1,6 +1,6 @@
 <h1> Java and Hbase Example</h1>
 
-<p> This repository is a very simple example on how to perform CRUD operation in HBase using Java.</p>
+<p> This repository is a very simple example on how to perform CRUD operations in HBase using Java.</p>
 <p> Since I use pseudo distributed mode on my HBase's setup, so that hadoop and zookeeper are needed. If your HBase's setup is in standalone one, you don't need install and setup that stack</p>
 
 <h3>Prerequisites</h3>

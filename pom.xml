@@ -24,78 +24,30 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase -->
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
 		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase</artifactId>
-			<version>1.2.6</version>
-			<type>pom</type>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>3.1.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-server -->
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core -->
 		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-server</artifactId>
-			<version>1.2.6</version>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-core</artifactId>
+			<version>3.1.0</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-common</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-client -->
 		<dependency>
 			<groupId>org.apache.hbase</groupId>
 			<artifactId>hbase-client</artifactId>
-			<version>1.2.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-common -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-common</artifactId>
-			<version>1.2.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-protocol -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-protocol</artifactId>
-			<version>1.2.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-testing-util -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-testing-util</artifactId>
-			<version>1.2.6</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-hadoop-compat -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-hadoop-compat</artifactId>
-			<version>1.2.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-annotations -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-annotations</artifactId>
-			<version>1.2.6</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-it -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-it</artifactId>
-			<version>1.2.6</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-hadoop2-compat -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-hadoop2-compat</artifactId>
-			<version>1.2.6</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-prefix-tree -->
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase-prefix-tree</artifactId>
-			<version>1.2.6</version>
-			<scope>runtime</scope>
+			<version>2.0.0</version>
 		</dependency>
 	</dependencies>
-	
+
 </project>

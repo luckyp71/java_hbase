@@ -39,6 +39,7 @@ public class InsertData {
 				p.addColumn(Bytes.toBytes("personal data"), 
 						Bytes.toBytes("address"), Bytes.toBytes("Bogor"));
 				
+				// Save data
 				table.put(p);
 				System.out.println("Data inserted successfully");
 				

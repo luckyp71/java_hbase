@@ -17,7 +17,6 @@ public class ReadData {
 	public static void main (String[] args) {
 		
 		try {
-			
 			// Instantiating Configuration class
 			Configuration config = HBaseConfiguration.create();
 			
